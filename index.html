@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Workshop Demo's Main Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/index.css">
+    </head>
+    <body>
+        <h1>
+            Welcome to the Main Page!
+        </h1>
+        <div>
+            <form action="/signup" method="POST">
+                <h4><b>Sign up an account here</b></h4>
+                <br>First Name: <input type="text" name="fname">
+                <br>Last Name: <input type="text" name="lname">
+                <br>Email: <input type="email" name="email">
+                <br>Password: <input type="password" name="pw">
+                <br>Confirm Password: <input type="password" name="cpw">
+                <br><select>
+                    <option value="True">I agree to the <a href="/policy">policy and agreement</a></option>
+                </select>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+       
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/blog.css">
+    </head>
+    <body>
+        <h1>
+            Hello {User}
+        </h1>
+        <div>
+            <h3>Add a blog</h3>
+            <form action="/addblog" method="POST">
+                <h5><b>Add a new blog</b></h5>
+                <textarea name="blogcontent" placeholder="Add your blog content here..."></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+        <div>
+            <h3>
+                News Feed
+            </h3>
+            <div>
+
+            </div>
+        </div>
+    </body>
+</html>
